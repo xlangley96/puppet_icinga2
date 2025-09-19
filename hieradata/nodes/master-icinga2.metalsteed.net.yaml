@@ -1,0 +1,16 @@
+classes:
+- icinga2::master
+
+icinga2::master::hostname: master-icinga2.metalsteed.net
+icinga2::master::web_user: icingaadmin
+icinga2::master::web_password: 'ChangeMe123'
+icinga2::master::api_enabled: true
+icinga2::master::web_enabled: true
+icinga2::master::db_host: localhost
+icinga2::master::db_name: icinga
+icinga2::master::db_user: icinga
+icinga2::master::db_password: 'ChangeMe123'
+icinga2::master::agents:
+- agent-icinga2.metalsteed.net
+- agent01-icinga2.metalsteed.net
+- agent02-icinga2.metalsteed.net

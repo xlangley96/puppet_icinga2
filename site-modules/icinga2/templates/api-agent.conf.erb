@@ -1,0 +1,7 @@
+object Endpoint "<%= @master %>" {
+  host = "<%= @master %>"
+}
+
+object Zone "master" {
+  endpoints = [ "<%= @master %>" ]
+}

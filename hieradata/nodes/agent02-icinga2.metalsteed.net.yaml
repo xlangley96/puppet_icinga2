@@ -1,0 +1,5 @@
+classes:
+- icinga2::agent
+
+icinga2::agent::master: master-icinga2.metalsteed.net
+icinga2::agent::hostname: agent02-icinga2.metalsteed.net
